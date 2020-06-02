@@ -28,7 +28,7 @@ hi! link Define PreProc
 hi! link Debug Special
 hi! link Delimiter Special
 hi! link Exception Statement
-hi! link Float Constant
+hi! link Float Special
 hi! link Function Identifier
 hi! link Include PreProc
 hi! link Keyword Statement
