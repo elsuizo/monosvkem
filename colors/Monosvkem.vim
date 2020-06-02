@@ -1,8 +1,8 @@
-" Name:         Monosvkem
+" Name:         Monosvkem-suizo
 " Description:  Begone, angry fruit salad !
 " Author:       neutaaaaan
 " Maintainer:   neutaaaaan
-" Website:      https://github.com/neutaaaaan/monosvkem
+" Website:      https://github.com/elsuizo/monosvkem
 " License:      Public domain
 " Last Updated: Thu 23 Jan 2020 09:25:18 AM CET
 
@@ -13,7 +13,7 @@ if exists('syntax_on')
   syntax reset
 endif
 
-let g:colors_name = 'Monosvkem'
+let g:colors_name = 'Monosvkem-suizo'
 
 let s:t_Co = exists('&t_Co') && !empty(&t_Co) && &t_Co > 1 ? &t_Co : 2
 let s:italics = (((&t_ZH != '' && &t_ZH != '[7m') || has('gui_running')) && !has('iOS'))
@@ -34,7 +34,7 @@ hi! link Include PreProc
 hi! link Keyword Statement
 hi! link Label Statement
 hi! link Macro PreProc
-hi! link Number Constant
+hi! link Number Search
 hi! link Operator Statement
 hi! link PreCondit PreProc
 hi! link Repeat Statement
