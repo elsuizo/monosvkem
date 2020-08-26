@@ -31,7 +31,7 @@ hi! link Exception Statement
 hi! link Float Special
 hi! link Function Identifier
 hi! link Include PreProc
-hi! link Keyword Statement
+hi! link Keyword ModeMsg
 hi! link Label Statement
 hi! link Macro PreProc
 hi! link Number Special
@@ -60,6 +60,7 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
       hi Normal guifg=#dddddd guibg=#121212 guisp=NONE gui=NONE cterm=NONE
       hi Terminal guifg=#dddddd guibg=#121212 guisp=NONE gui=NONE cterm=NONE
     endif
+    hi New guifg=NONE guibg=#767676 guisp=NONE gui=NONE cterm=NONE
     hi ColorColumn guifg=NONE guibg=#080808 guisp=NONE gui=NONE cterm=NONE
     hi Conceal guifg=NONE guibg=NONE guisp=NONE gui=NONE ctermfg=NONE ctermbg=NONE cterm=NONE
     hi Cursor guifg=NONE guibg=NONE guisp=NONE gui=reverse ctermfg=NONE ctermbg=NONE cterm=reverse
