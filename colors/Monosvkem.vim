@@ -79,8 +79,8 @@ if (has('termguicolors') && &termguicolors) || has('gui_running')
     hi IncSearch guifg=#fcbb20 guibg=#121212 guisp=NONE gui=reverse cterm=reverse
     hi LineNr guifg=#404040 guibg=#121212 guisp=NONE gui=NONE cterm=NONE
     hi MatchParen guifg=#fc20bb guibg=#121212 guisp=NONE gui=bold cterm=bold
-    hi ModeMsg guifg=#dddddd guibg=#121212 guisp=NONE gui=bold cterm=bold
-    hi MoreMsg guifg=#dddddd guibg=#121212 guisp=NONE gui=NONE cterm=NONE
+    hi ModeMsg guifg=#ffffff guibg=#121212 guisp=NONE gui=bold cterm=bold
+    hi MoreMsg guifg=#ffffff guibg=#121212 guisp=NONE gui=NONE cterm=NONE
     hi NonText guifg=#707070 guibg=#121212 guisp=NONE gui=NONE cterm=NONE
     hi Pmenu guifg=#121212 guibg=#80aacc guisp=NONE gui=NONE cterm=NONE
     hi PmenuSbar guifg=#dddddd guibg=#121212 guisp=NONE gui=NONE cterm=NONE
