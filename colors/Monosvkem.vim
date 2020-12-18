@@ -21,7 +21,7 @@ let s:italics = (((&t_ZH != '' && &t_ZH != '[7m') || has('gui_running')) && !ha
 hi! link QuickFixLine Search
 hi! link StatusLineTerm StatusLine
 hi! link StatusLineTermNC StatusLineNC
-hi! link Boolean Constant
+hi! link Boolean Special
 hi! link Character Constant
 hi! link Conditional Statement
 hi! link Define PreProc
